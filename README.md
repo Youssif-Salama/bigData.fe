@@ -1,5 +1,6 @@
 ```markdown
 # BigData-FE
+https://big-data-fe.vercel.app/exchange
 
 **BigData-FE** is a frontend project designed to handle big data visualizations and user interfaces. It is built with modern tools such as React, TypeScript, Tailwind CSS, and Vite for an optimized development and production environment.
 
@@ -140,6 +141,20 @@ docker pull youssif0001/bigdata.fe:v2
 - `eslint`: Linting tool.
 - `typescript`, `typescript-eslint`: TypeScript support.
 - `tailwindcss`, `autoprefixer`, `postcss`: Styling.
+
+# Performance Analysis
+
+You can check the detailed performance analysis of the app using the following link:
+
+[View the PageSpeed Insights Report](https://pagespeed.web.dev/analysis/https-big-data-fe-vercel-app-exchange/mujsyw69a3?hl=en-US&form_factor=mobile)
+
+## PageSpeed Insights
+
+![PageSpeed Insights](https://img.shields.io/badge/Speed-90%2B-green)
+
+Or see a screenshot of the analysis:
+
+![PageSpeed Insights Report](https://example.com/screenshot.png)
 
 ## Contributing
 
