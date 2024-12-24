@@ -30,7 +30,10 @@ const Home = () => {
   return (
     <div className="flex flex-col gap-3">
       {/* title */}
-      <Helmet title="Exchange" />
+      <Helmet>
+      <title>Exchange</title>
+      <meta name="description" content="This is the Exchange page where you can trade and view the latest market trends." />
+    </Helmet>
       {/* head */}
       <HomeHead setApplySearch={setApplySearch} setSearch={setSearch} />
       {/* content */}

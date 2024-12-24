@@ -17,8 +17,10 @@ const Meta = () => {
   },[])
   return (
     <div>
-      <Helmet title="Meta"/>
-      {
+<Helmet>
+      <title>Meta</title>
+      <meta name="description" content="This is a meta description for the Meta page, which provides information about the content of the page." />
+    </Helmet>      {
         timeOut ? (<div className='flex flex-col gap-3'>
           {/* head */}
       <CommonHead title='Exchange Meta And Candles'/>

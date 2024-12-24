@@ -70,8 +70,6 @@ bigdata-fe/
 ├── src/               # Source code
 │   ├── components/    # Reusable React components
 │   ├── pages/         # Page components for routing
-│   ├── styles/        # Tailwind CSS styles and custom CSS
-│   ├── utils/         # Utility functions
 │   └── main.tsx       # Entry point
 ├── public/            # Static assets
 ├── package.json       # Project metadata and dependencies
@@ -87,7 +85,46 @@ bigdata-fe/
 - **Tailwind CSS**: Flexible styling options.
 - **Vite**: Ultra-fast development server and build system.
 
-## Dependencies
+Here's the **Docker-related section** of your README:
+
+---
+
+```markdown
+## Docker Setup
+
+### 1. **Build the Docker Image**
+
+To build the Docker image for the Vite.js app, run the following command in the project root:
+
+```bash
+docker build -t bigData.fe .
+```
+
+### 2. **Run the Docker Image Locally**
+
+To run the Docker image locally, execute:
+
+```bash
+docker run -d -p 8080:80 --name bigDataContainer bigData.fe
+```
+
+- The app will be accessible at `http://localhost:8080`.
+
+### 3. **Tag the Image for Docker Hub**
+
+Before pushing the image to Docker Hub, tag it with your Docker Hub username and repository name:
+
+```bash
+docker tag bigdata.fe:v2
+```
+
+### 6. **Pull the Image from Docker Hub**
+
+To pull the image on another machine:
+
+```bash
+docker pull youssif0001/bigdata.fe:v2
+```
 
 ### Production
 
